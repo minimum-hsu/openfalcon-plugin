@@ -10,6 +10,6 @@ echo "[{\
   \"timestamp\"  : $date,\
   \"metric\"     : \"sys.uptime\",\
   \"value\"      : $handle,\
-  \"counterType\": \"GUAGE\",\
+  \"counterType\": \"GAUGE\",\
   \"step\"       : 60}]"
 

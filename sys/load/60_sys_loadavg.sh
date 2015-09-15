@@ -17,7 +17,7 @@ echo "[{\
   \"timestamp\"  : $date,\
   \"metric\"     : \"sys.loadavg.1min\",\
   \"value\"      : $handle1,\
-  \"counterType\": \"GUAGE\",\
+  \"counterType\": \"GAUGE\",\
   \"step\"       : 60},\
   {\
   \"endpoint\"   : \"$host\",\
@@ -25,7 +25,7 @@ echo "[{\
   \"timestamp\"  : $date,\
   \"metric\"     : \"sys.loadavg.5min\",\
   \"value\"      : $handle5,\
-  \"counterType\": \"GUAGE\",\
+  \"counterType\": \"GAUGE\",\
   \"step\"       : 60},\
   {\
   \"endpoint\"   : \"$host\",\
@@ -33,6 +33,6 @@ echo "[{\
   \"timestamp\"  : $date,\
   \"metric\"     : \"sys.loadavg.15min\",\
   \"value\"      : $handle15,\
-  \"counterType\": \"GUAGE\",\
+  \"counterType\": \"GAUGE\",\
   \"step\"       : 60}]"
 

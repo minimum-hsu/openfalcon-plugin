@@ -10,5 +10,5 @@ echo "[{\
   \"timestamp\"  : $date,\
   \"metric\"     : \"sys.process\",\
   \"value\"      : $handle,\
-  \"counterType\": \"GUAGE\",\
+  \"counterType\": \"GAUGE\",\
   \"step\"       : 60}]"
