@@ -9,7 +9,7 @@ echo "[{\
   \"tags\"       : \"\",\
   \"timestamp\"  : $date,\
   \"metric\"     : \"net.mac\",\
-  \"value\"      : $handle,\
+  \"value\"      : \"$handle\",\
   \"counterType\": \"GAUGE\",\
   \"step\"       : 3600}]"
 
