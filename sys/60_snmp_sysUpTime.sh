@@ -2,7 +2,7 @@
 
 handle=$(snmpget -v2c -c public -ObentUv -r 5 -t 1 localhost 1.3.6.1.2.1.1.3.0)
 date=`date +%s`
-host=$HOSTNAME
+host=docker-agent
 
 echo "[{\
   \"endpoint\"   : \"$host\",\

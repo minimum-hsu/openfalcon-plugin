@@ -3,7 +3,7 @@
 # load average 1 min
 handle1=$(cat /proc/loadavg | awk '{print $1}')
 date=`date +%s`
-host=$HOSTNAME
+host=docker-agent
 
 # load average 5 min
 handle5=$(cat /proc/loadavg | awk '{print $2}')

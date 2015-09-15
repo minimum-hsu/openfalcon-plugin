@@ -2,7 +2,7 @@
 
 handle=$(cat /sys/class/net/eth0/address)
 date=`date +%s`
-host=$HOSTNAME
+host=docker-agent
 
 echo "[{\
   \"endpoint\"   : \"$host\",\
